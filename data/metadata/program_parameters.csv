@@ -30,6 +30,6 @@ Program or rate,Classification as a program or a rate by the Department of Energ
 Payment Function ,Qualitativedescription of the payment function 
 Quantitative Payment Function,"Payment = f(delivered ratio, capacity price, nominated capacity)"
 Baseline,"Subset historical consumption to a certain set of dates, apply the average, mean, median, or whatever function is specified in the baseline calculation method for the program"
-Quantitative Baseline,Baselineparameter values that align with the variables in the generalizable baseline function
+Quantitative Baseline,Baseline parameter values that align with the variables in the generalizable baseline function
 Delivered Ratio,delivered ratio = amount reduced/nomination of delivery 
 Amount reduced,baseline - consumption
