@@ -27,3 +27,5 @@ util,Utility
 trigger,Trigger
 load,Eligible load type 
 program_rate,Program or rate
+base_q,Quantitative baseline function 
+pay_q,Quantitative payment function
