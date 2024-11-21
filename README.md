@@ -54,37 +54,24 @@ Metadata is stored in two CSV files, one with program parameters and one with si
 - **Function (function):** Function applied to load measurement for baseline calculation 
 - **Firm Level Demand	(firm_level):**	Load level that companies are expected to reduce their load to (alternative to baseline) 
 
- 
+ Methods
+ -------
+To create this dataset, the U.S. DOE Federal Energy Management Program's Demand Response and Time-Variable Pricing website, which listed and described energy management programs across the united States, was referenced. 
 
-Baseline Function Variables
----------------------------
-Baseline Determining Functions 
-Date Range: dates from which baseline days are selected 
+First, program parameters were defined. These parameters characterize each program by their distinct features. These parameters can be found in program_parameters.csv in the metadata file. 
 
-**Can measurements be taken on weekdends?**
-weekends: True/False 
-**Can measurements be taken on holidays?**
-holidays: True/False 
-**Previous events**
-prev_events: True/False 
-**Time of day during which load can be measured**
-base_hours: 0-24 
-Load measurement frequency - minutes vs. hourly vs. monthly: how often load is measured 
-range_resolution: "month", "days", "hours", "minutes" 
-range_value: #
-Load measurement function - avg vs. max: function applied to load measurements in a given time range and date range
-function: mean(), max(), min(), median()
+Next, programs were populated in the dataset along with their parameters (if available) and a url link to the program source/website. 
 
-**Alternative: Firm Level Demand**
-Assume baseline is 0 and constraint can be taken care of in the payment function; in payment function: domain (1,1)
+The dataset, after being populated, was cross-checked with the U.S. DOE Federal Energy Management Program's...
+
+ Simulation Parameters
+ ---------------------
+ Simulation parameters can be used to characterized simulated demand response events using the demand response simulator. These parameters can be found in... 
+
+ Attribution & Acknowledgements
+ ------------------------------
 
 
 
-Payment Function Variables
---------------------------
-**Baseline:** will add later 
-**Delivered Ratio:** reduction/nominated capacity
-**Reduction:** baseline - consumption
-**Nominated Capacity:** Energy bid
 
  
