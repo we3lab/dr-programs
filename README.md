@@ -1,13 +1,11 @@
 # dr-programs
 Data Records
 ------------
-Data in this repository consists of metadata (2 CSV files) and program data (2 CSV files):
+Data in this repository consists of metadata (1 CSV files) and program data (1 CSV files):
 Metadata
 - program_parameters.csv
-- simulation_parameters.csv
 Program Data
 - us_program_parameters.csv
-- us_simulation_parameters.csv
 
 Metadata
 --------
@@ -54,6 +52,10 @@ Metadata is stored in two CSV files, one with program parameters and one with si
 - **Function (function):** Function applied to load measurement for baseline calculation 
 - **Firm Level Demand	(firm_level):**	Load level that companies are expected to reduce their load to (alternative to baseline) 
 
+Program Data
+------------
+
+
  Methods
  -------
 To create this dataset, the U.S. DOE Federal Energy Management Program's Demand Response and Time-Variable Pricing website, which listed and described energy management programs across the united States, was referenced. 
@@ -62,7 +64,7 @@ First, program parameters were defined. These parameters characterize each progr
 
 Next, programs were populated in the dataset along with their parameters (if available) and a url link to the program source/website. 
 
-The dataset, after being populated, was cross-checked with the U.S. DOE Federal Energy Management Program's...
+The dataset, after being populated, was cross-checked with the U.S. DOE Federal Energy Management Program's Demand Response and Time-Variable Pricing Programs Search. 
 
  Simulation Parameters
  ---------------------
@@ -70,6 +72,7 @@ The dataset, after being populated, was cross-checked with the U.S. DOE Federal 
 
  Attribution & Acknowledgements
  ------------------------------
+ include apa citation for databases 
 
 
 
