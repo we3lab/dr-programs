@@ -1,9 +1,11 @@
 # dr-programs
 Data Records
 ------------
-Data in this repository consists of metadata (1 CSV files) and program data (1 CSV files):
+Data in this repository consists of metadata (1 CSV file) and program data (1 CSV file):
+
 Metadata
 - program_parameters.csv
+
 Program Data
 - us_program_parameters.csv
 
@@ -54,10 +56,12 @@ Metadata is stored in two CSV files, one with program parameters and one with si
 
 Program Data
 ------------
+There are 138 individual programs from 45 states and Washington D.C. States not present include Kansas, Nevada, Wyoming, Maine,and Louisiana. Program data includes entries for each parameter outlined in the metadata for each program. Entries of "n/a" indicate that parameter information is unavailable for that program. 
 
+This data can be used to calculate incentive payment for simulated demand response events using a generalizable **baseline function** and **payment function**. The baseline function is used to calculates the reference energy usage program particpants must reduce their load from to recieve incentives. The Payment function will use the baseline energy usage, load reduction, and incentive payment rate to calculate payment awarded for a demand response event. 
 
- Methods
- -------
+Methods
+-------
 To create this dataset, the U.S. DOE Federal Energy Management Program's Demand Response and Time-Variable Pricing website, which listed and described energy management programs across the united States, was referenced. 
 
 First, program parameters were defined. These parameters characterize each program by their distinct features. These parameters can be found in program_parameters.csv in the metadata file. 
@@ -66,15 +70,15 @@ Next, programs were populated in the dataset along with their parameters (if ava
 
 The dataset, after being populated, was cross-checked with the U.S. DOE Federal Energy Management Program's Demand Response and Time-Variable Pricing Programs Search. 
 
- Simulation Parameters
- ---------------------
- Simulation parameters can be used to characterized simulated demand response events using the demand response simulator. These parameters can be found in... 
+Simulation Parameters
+---------------------
+ Simulation parameters can be used to characterize simulated demand response events with the demand response simulator. These parameters can be found in...
 
- Attribution & Acknowledgements
+ References & Acknowledgements
  ------------------------------
- include apa citation for databases 
+Demand response and time-variable pricing programs and rates | Department of Energy. (n.d.). https://www.energy.gov/femp/articles/demand-response-and-time-variable-pricing-programs-and-rates 
 
-
+I would like to thank Akshay Rao and Adhithyan Sakthivelu for their guidance while developing this dataset. 
 
 
  
