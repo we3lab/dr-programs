@@ -31,14 +31,14 @@ Metadata is stored in two CSV files, one with program parameters and one with si
 - **Region (region):** The United States Department of Energy separates the states into the West Region, The Southeast and Midwest Region, and the Northeast Region
 - **Days of the Week (dow):**	Which days of the week can events fall on? 
 - **Season (season):** Some programs run during the summer, winter, or both
-- **Eligibility (elig):**	Eligibility to particpate in the program (minimum bids, minimum peak demand, etc.)
+- **Eligibility (elig):**	Eligibility to participate in the program (minimum bids, minimum peak demand, etc.)
 - **Company (comp):**	Which company or companies offer this program
 - **Start month (sm):** Month during which the DR event season starts
 - **End month	(em):**	Month during which the DR event season ends 
 - **State	(state):** State in which the program is eligible
 - **Utility (util):**	Eligible utilities 
 - **Trigger (trigger):** Event trigger type
-- **Eligible load type (load):** What type of load is eligible for particpation in the program 
+- **Eligible load type (load):** What type of load is eligible for participation in the program 
 - **Program or rate (program_rate):**	Classification as a program or a rate by the Department of Energy 
 - **Payment  Function (function_pay):** Function for calculating payment after an event
 - **Baseline Function	(function_base):** Function for calculating baseline 
@@ -58,7 +58,7 @@ Program Data
 ------------
 There are 138 individual programs from 45 states and Washington D.C. States not present include Kansas, Nevada, Wyoming, Maine,and Louisiana. Program data includes entries for each parameter outlined in the metadata for each program. Entries of "n/a" indicate that parameter information is unavailable for that program. 
 
-This data can be used to calculate incentive payment for simulated demand response events using a generalizable **baseline function** and **payment function**. The baseline function is used to calculates the reference energy usage program particpants must reduce their load from to recieve incentives. The Payment function will use the baseline energy usage, load reduction, and incentive payment rate to calculate payment awarded for a demand response event. 
+This data can be used to calculate incentive payment for simulated demand response events using a generalizable **baseline function** and **payment function**. The baseline function is used to calculates the reference energy usage program particpants must reduce their load from to receive incentives. The Payment function will use the baseline energy usage, load reduction, and incentive payment rate to calculate payment awarded for a demand response event. 
 
 Methods
 -------
