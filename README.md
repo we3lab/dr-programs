@@ -72,7 +72,7 @@ The dataset, after being populated, was cross-checked with the U.S. DOE Federal 
 
 Simulation Parameters
 ---------------------
- Simulation parameters can be used to characterize simulated demand response events with the demand response simulator. These parameters can be found in...
+ Simulation parameters can be used to characterize simulated demand response events with the demand response simulator.
 
  References & Acknowledgements
  ------------------------------
