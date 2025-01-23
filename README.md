@@ -78,7 +78,10 @@ Simulation Parameters
  ------------------------------
 Demand response and time-variable pricing programs and rates | Department of Energy. (n.d.). https://www.energy.gov/femp/articles/demand-response-and-time-variable-pricing-programs-and-rates 
 
-I would like to thank Akshay Rao and Adhithyan Sakthivelu for their guidance while developing this dataset. 
+ Citations
+ ------------------------------
+If you want to use this work, please cite using
 
+David, E., Sakthivelu, A., Rao, A., and Mauter, M. (2025). US incentive based demand response program parameters. Version 2. Stanford Digital Repository. Available at https://purl.stanford.edu/ck480bd0124/version/2. https://doi.org/10.25740/ck480bd0124.
 
  
