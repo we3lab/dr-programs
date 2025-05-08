@@ -136,3 +136,23 @@ Peak Shaving and Emergency Demand Response Rider (summer) (Tennessee),TN,other,s
 Peak Shaving and Emergency Demand Response Rider (non summer) (Tennessee),TN,other,winter,,,,"Curtailment energy credit of 90% of AEP East Load Zone hourly Real-Time LMP per curtailment hour. Curtailment demand credit of either the 4 year average PJM RPM Limited Base DR Base Residual Auction Clearing price (calculated with the previous, current, and next 2 delivery years) or 70% of RPM Net CONE for the current delivery year (both in $ per kW-month). Whichever is higher. Also monthly demand and event credits. Penalty for non-compliance is an annual non-compliance charge of avergae non-compliance demand x 110% of the curtailment demand credits x 12. "
 Commercial and Industrial Interruptible Rider Emergency Summer(Wisconsin) ,WI,MISO,summer,,8.039,,Billing credit of $8.039 per kW of max interruptible demand. Penalty for non-compliance is highest demand during non-complicance x annual credits x 110% or additianal power costs to company (whichever is higher) 
 Commercial and Industrial Interruptible Rider Emergency Winter (Wisconsin) ,WI,MISO,winter,4.02,,,Billing credit of $4.020 per kW of max interruptible demand. Penalty for non-compliance is highest demand during non-complicance x annual credits x 110% or additianal power costs to company (whichever is higher) 
+Commercial Load Management Program (Tier 1),TX,ERCOT,summer,,30,,Earn $30/kW curtailed
+Commercial Load Management Program (Tier 2),TX,ERCOT,summer,,40,,Earn $40/kW curtailed
+"Summer Load Management Standard Offer Program (12 events, 2 hr max)",TX,ERCOT,summer,,35,,"Earn $35/kW (3718 kW savings cap), $25/kW (5205 kW savings cap), $20/kW (6507 kW savings cap)"
+"Summer Load Management Standard Offer Program (8 events, 2 hr max)",TX,ERCOT,summer,,35,,"Earn $35/kW (3718 kW savings cap), $25/kW (5205 kW savings cap), $20/kW (6507 kW savings cap)"
+"Summer Load Management Standard Offer Program (12 events, 4 hr max)",TX,ERCOT,summer,,35,,"Earn $35/kW (3718 kW savings cap), $25/kW (5205 kW savings cap), $20/kW (6507 kW savings cap)"
+"Summer Load Management Standard Offer Program (8 events, 4 hr max)",TX,ERCOT,summer,,35,,"Earn $35/kW (3718 kW savings cap), $25/kW (5205 kW savings cap), $20/kW (6507 kW savings cap)"
+Winter Load Management Standard Offer Program,TX,ERCOT,winter,35,,,Earn $35/kW 
+Commercial System Relief Program (4 or less events),NY,NYISO,summer,,4.1,,Earn $4.10/kW per month
+Commercial System Relief Program (5 or less events),NY,NYISO,summer,,4.35,,Earn $4.35/kW per month
+Emergency Load Reduction Program,CA,CAISO,summer,,,,Performance credit of $2/kWh reduced load
+Capacity Bidding Program Elect (May) (Option 1) ,CA,CAISO,summer,,27,,($/kW per month) May: 3.78June: 10.07 July: 21.84 August: 27 September: 17.88 October: 5.41
+Capacity Bidding Program Elect (June-October) (Option 1),CA,CAISO,summer,,27,,($/kW per month) May: 3.78June: 10.07 July: 21.84 August: 27 September: 17.88 October: 5.42
+Capacity Bidding Program Elect (May) (Option 2),CA,CAISO,summer,,25.71,,($/kW per month) May: 3.60 June: 9.59 July: 20.80 August: 25.71 September: 17.03 October: 5.16
+Capacity Bidding Program Elect (June-October) (Option 2),CA,CAISO,summer,,25.71,,($/kW per month) May: 3.60 June: 9.59 July: 20.80 August: 25.71 September: 17.03 October: 5.17
+Capacity Bidding Program Elect (May ) (Option 3),CA,CAISO,summer,,24.49,,($/kW per month) May: 3.43 June: 9.13 July: 19.81 August: 24.49 September: 16.22 October: 4.91
+Capacity Bidding Program Elect (June-October) (Option 3),CA,CAISO,summer,,24.49,,($/kW per month) May: 3.43 June: 9.13 July: 19.81 August: 24.49 September: 16.22 October: 4.92
+Capacity Bidding Program (May),CA,CAISO,summer,,27.19,,Credit of ($/kW-month) May: 4.59 June: 6.89 July:23.3 August: 27.19 September: 14.54 October: 2.69
+Capacity Bidding Program (June - October),CA,CAISO,summer,,27.19,,Credit of ($/kW-month) May: 4.59 June: 6.89 July:23.3 August: 27.19 September: 14.54 October: 2.70
+Base Interruptible Program (Option A) (On Peak),CA,CAISO,summer,,29.54,,Bill credits or payments of $29.54/kW
+Base Interruptible Program (Option B) (On Peak),CA,CAISO,summer,,29.54,,Bill credits or payments of $29.54/kW
