@@ -1,0 +1,5 @@
+Case,total_water_production_m3,total_energy_cost_USD
+baseline, 401760.0,322436.22717568243
+with_algae, 343440.0,279665.46279736114
+dr_contract, 341145.0,201485.835679625
+dr_program, 337680.0,185393.00349730955
