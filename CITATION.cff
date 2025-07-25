@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+authors:
+  - family-names: "David"
+    given-names: "Eres"
+    orcid: "https://orcid.org/0009-0007-7290-6150"
+  - family-names: "Sakthivelu"
+    given-names: "Adhithyan"
+    orcid: "https://orcid.org/0000-0002-3826-8112"
+  - family-names: "Rao"
+    given-names: "Akshay K."
+    orcid: "https://orcid.org/0000-0002-9054-476X"
+  - family-names: "Mauter"
+    given-names: "Meagan S."
+    orcid: "https://orcid.org/0000-0002-4932-890X"
+title: "US incentive based demand response program parameters"
+doi: 10.25740/ck480bd0124
+date-released: 2024-12-17
+type: dataset
+message: "If this dataset has been useful in your research, we encourage you to cite it using the provided metadata."
+url: "https://purl.stanford.edu/ck480bd0124/version/2"
