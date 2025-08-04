@@ -14,7 +14,10 @@ authors:
     orcid: "https://orcid.org/0000-0002-4932-890X"
 title: "US incentive based demand response program parameters"
 doi: 10.25740/ck480bd0124
+version: 2
 date-released: 2024-12-17
 type: dataset
 message: "If this dataset has been useful in your research, we encourage you to cite it using the provided metadata."
 url: "https://purl.stanford.edu/ck480bd0124/version/2"
+publisher:
+  name: "Stanford Digital Repository"
