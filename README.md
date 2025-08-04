@@ -84,4 +84,22 @@ If you want to use this work, please cite using
 
 David, E., Sakthivelu, A., Rao, A., and Mauter, M. (2025). US incentive based demand response program parameters. Version 2. Stanford Digital Repository. Available at https://purl.stanford.edu/ck480bd0124/version/2. https://doi.org/10.25740/ck480bd0124.
 
+In BibTeX format:
+
+```
+@misc{Chapin2024,
+    author={David, Eres
+    and Sakthivelu, Adhithyan
+    and Rao, Akshay K.
+    and Mauter, Meagan S.},
+    title={US incentive based demand response program parameters},
+    publisher={Stanford Digital Repository},
+    year={2024},
+    month={Dec},
+    day={17},
+    version={2},
+    doi={10.25740/ck480bd0124},
+    url={https://purl.stanford.edu/ck480bd0124/version/2}
+}
+```
  
