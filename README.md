@@ -87,7 +87,7 @@ David, E., Sakthivelu, A., Rao, A., and Mauter, M. (2025). US incentive based de
 In BibTeX format:
 
 ```
-@misc{Chapin2024,
+@misc{david2024us,
     author={David, Eres
     and Sakthivelu, Adhithyan
     and Rao, Akshay K.
