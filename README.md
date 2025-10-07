@@ -29,7 +29,7 @@ Metadata is stored in two CSV files, one with program parameters and one with si
 - **Presence of historic data	(hist_pres):** Programs may or may not have historic data present 
 - **Payment function (pay_function):** Form of compensation for shifts in energy load (or being available to shift energy loads) when called upon 
 - **Region (region):** The United States Department of Energy separates the states into the West Region, The Southeast and Midwest Region, and the Northeast Region
-- **Days of the week (dow):**	The days of week which events can fall on 
+- **Days of the week (dow):**	The days of week on which events can fall 
 - **Season (season):** Some programs run during the summer, winter, or both
 - **Eligibility (elig):**	Eligibility to participate in the program (minimum bids, minimum peak demand, etc.)
 - **Company (comp):**	Which company or companies offer this program
@@ -41,11 +41,11 @@ Metadata is stored in two CSV files, one with program parameters and one with si
 - **Eligible load type (load):** What type of load is eligible for participation in the program 
 - **Program or rate (program_rate):**	Classification as a program or a rate by the Department of Energy 
 - **Baseline function	(function_base):** Function for calculating baseline 
-- **Delivered ratio (delivered_ratio):** the amount reduced divided by nomination of delivery 
-- **Amount reduced (amount_reduced):** baseline minus consumption
-- **Inclusion of weekends	(weekends):**	Does the baseline calculation include weekends or not? 
-- **Inclusion of holidays	(holidays):** Does the baseline calculation include holidays or not?
-- **Inclusion of previous events (prev_events):**	Does the baseline calculation include previous events or not?
+- **Delivered ratio (delivered_ratio):** The amount reduced divided by nomination of delivery 
+- **Amount reduced (amount_reduced):** Baseline minus consumption
+- **Inclusion of weekends	(weekends):**	If the baseline calculation includes weekends
+- **Inclusion of holidays	(holidays):** If the baseline calculation includes holidays
+- **Inclusion of previous events (prev_events):**	If the baseline calculation include previous events
 - **Baseline hours (base_hours):** Time of day during which load measurements can be taken for baseline calculation 
 - **Range value (range_val):** Number of load measurements taken at a certain frequency for baseline calculation
 - **Range resolution (range_res):** Frequency of load measurement for baseline calculation 
