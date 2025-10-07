@@ -27,7 +27,6 @@ Utility,util,Eligible utilities
 Trigger,trigger,Event trigger type
 Eligible load type,load,What type of load is eligible for particpation in the program 
 Program or rate,program_rate,Classification as a program or a rate by the Department of Energy 
-Payment  Function,function_pay,Function for calculating payment after an event
 Baseline Function,function_base,Function for calculating baseline 
 Delivered Ratio,amount_reduced,the amount reduced divided by nomination of delivery 
 Amount reduced,delivered_ratio,baseline minus consumption

@@ -40,7 +40,6 @@ Metadata is stored in two CSV files, one with program parameters and one with si
 - **Trigger (trigger):** Event trigger type
 - **Eligible load type (load):** What type of load is eligible for participation in the program 
 - **Program or rate (program_rate):**	Classification as a program or a rate by the Department of Energy 
-- **Payment  function (function_pay):** Function for calculating payment after an event
 - **Baseline function	(function_base):** Function for calculating baseline 
 - **Delivered ratio (delivered_ratio):** the amount reduced divided by nomination of delivery 
 - **Amount reduced (amount_reduced):** baseline minus consumption
