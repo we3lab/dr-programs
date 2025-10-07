@@ -23,8 +23,8 @@ Metadata is stored in two CSV files, one with program parameters and one with si
 - **Events per day (events_daily):** The maximum event that a customer can provide on a single day.
 - **Maximum consecutive event days (max_consec):** The maximum consecutive days the customer can be called in a particular month
 - **Notification type	(notif_type):**	The event is generally notified the day before or the day of and is captures by this parameter
-- **Notification time (notif_time):**	If the event is notified the day before or the day of the program generally specifies the time. Note: This can also be historic event related
-- **Notification time delta (notif_delt):** The number of hours between the notifcation time and the beginning of an event 
+- **Notification time (notif_time):**	If the event is notified the day before or the day of the program generally specifies the time. *Note*: This can also be historic event related
+- **Notification time delta (notif_delt):** The number of hours between the notification time and the beginning of an event 
 - **Baseline calculation method (base_method):** The method used by each program to calculate the baseline energy usage
 - **Presence of historic data	(hist_pres):** Programs may or may not have historic data present 
 - **Payment function (pay_function):** Form of compensation for shifts in energy load (or being available to shift energy loads) when called upon 
