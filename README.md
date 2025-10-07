@@ -18,7 +18,7 @@ Metadata is stored in two CSV files, one with program parameters and one with si
 - **Maximum duration of event (max_dur):** The event should not last longer than the maximum duration specified by the program
 - **Program start time (start_time):** The program can be either 24 hours or last for a specified period of time and the start time is generally provided if it is not a 24-hour period
 - **Program end time (end_time):** The program can be either 24 hours or last for a specified period of time and the end time is generally provided if it is not a 24-hour period
-- **Maximum Events (max_events):** Maximum number of events that can be called in a season 
+- **Maximum events (max_events):** Maximum number of events that can be called in a season 
 - **Maximum event hours (max_hours):** Maximum total hours of all events called in a year 
 - **Events per day (events_daily):** The maximum event that a customer can provide on a single day.
 - **Maximum consecutive event days (max_consec):** The maximum consecutive days the customer can be called in a particular month
@@ -29,7 +29,7 @@ Metadata is stored in two CSV files, one with program parameters and one with si
 - **Presence of historic data	(hist_pres):** Programs may or may not have historic data present 
 - **Payment function (pay_function):** Form of compensation for shifts in energy load (or being available to shift energy loads) when called upon 
 - **Region (region):** The United States Department of Energy separates the states into the West Region, The Southeast and Midwest Region, and the Northeast Region
-- **Days of the Week (dow):**	Which days of the week can events fall on? 
+- **Days of the week (dow):**	The days of week which events can fall on 
 - **Season (season):** Some programs run during the summer, winter, or both
 - **Eligibility (elig):**	Eligibility to participate in the program (minimum bids, minimum peak demand, etc.)
 - **Company (comp):**	Which company or companies offer this program
@@ -40,19 +40,19 @@ Metadata is stored in two CSV files, one with program parameters and one with si
 - **Trigger (trigger):** Event trigger type
 - **Eligible load type (load):** What type of load is eligible for participation in the program 
 - **Program or rate (program_rate):**	Classification as a program or a rate by the Department of Energy 
-- **Payment  Function (function_pay):** Function for calculating payment after an event
-- **Baseline Function	(function_base):** Function for calculating baseline 
-- **Delivered Ratio (delivered ratio):** = amount reduced/nomination of delivery 
-- **Amount reduced:** baseline - consumption
+- **Payment  function (function_pay):** Function for calculating payment after an event
+- **Baseline function	(function_base):** Function for calculating baseline 
+- **Delivered ratio (delivered_ratio):** the amount reduced divided by nomination of delivery 
+- **Amount reduced (amount_reduced):** baseline minus consumption
 - **Inclusion of weekends	(weekends):**	Does the baseline calculation include weekends or not? 
 - **Inclusion of holidays	(holidays):** Does the baseline calculation include holidays or not?
 - **Inclusion of previous events (prev_events):**	Does the baseline calculation include previous events or not?
 - **Baseline hours (base_hours):** Time of day during which load measurements can be taken for baseline calculation 
-- **Range Value (range_val):** Number of load measurements taken at a certain frequency for baseline calculation
-- **Range Resolution (range_res):** Frequency of load measurement for baseline calculation 
-- **Date Range (base_dates):** Dates during which load measurements are taken for baseline calculation 
+- **Range value (range_val):** Number of load measurements taken at a certain frequency for baseline calculation
+- **Range resolution (range_res):** Frequency of load measurement for baseline calculation 
+- **Date range (base_dates):** Dates during which load measurements are taken for baseline calculation 
 - **Function (function):** Function applied to load measurement for baseline calculation 
-- **Firm Level Demand	(firm_level):**	Load level that companies are expected to reduce their load to (alternative to baseline) 
+- **Firm level demand	(firm_level):**	Load level that companies are expected to reduce their load to (alternative to baseline) 
 
 Program Data
 ------------

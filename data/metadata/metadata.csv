@@ -29,8 +29,8 @@ Eligible load type,load,What type of load is eligible for particpation in the pr
 Program or rate,program_rate,Classification as a program or a rate by the Department of Energy 
 Payment  Function ,function_pay,Function for calculating payment after an event
 Baseline Function,function_base,Function for calculating baseline 
-Delivered Ratio,,delivered ratio = amount reduced/nomination of delivery 
-Amount reduced,,baseline - consumption
+Delivered Ratio,amount_reduced,the amount reduced divided by nomination of delivery 
+Amount reduced,delivered_ratio,baseline minus consumption
 Inclusion of weekends,weekends,Does the baseline calculation include weekends or not? 
 Inclusion of holidays,holidays,Does the baseline calculation include holidays or not?
 Inclusion of previous events,prev_events,Does the baseline calculation include previous events or not?
